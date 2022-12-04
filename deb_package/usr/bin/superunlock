@@ -1,0 +1,4 @@
+#!/bin/bash
+
+pkill superlock
+xfce4-screensaver-command -d

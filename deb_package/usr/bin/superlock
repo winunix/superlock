@@ -1,0 +1,9 @@
+#!/bin/bash
+
+while true; do
+   STAT=$(xfce4-screensaver-command --query | grep "não está inibido" | wc -l)
+   if [ "$STAT" == "1" ]; then
+      xfce4-screensaver-command -a
+   fi
+   sleep 1
+done

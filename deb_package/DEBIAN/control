@@ -1,0 +1,11 @@
+Package: superlock
+Version: 0.0.1
+Installed-Size: 1
+Maintainer: ailtonbsj <ailton.ifce@gmail.com>
+Section: utils
+Architecture: all
+Priority: optional
+Depends: xfce4-screensaver
+Homepage: https://github.com/winunix/superlock
+Description: superlock for XFCE4.
+ Lock screen for xfce4. You can use with Veyon to control access on computers.
